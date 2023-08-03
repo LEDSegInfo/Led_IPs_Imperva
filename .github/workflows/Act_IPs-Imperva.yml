@@ -17,6 +17,6 @@ jobs:
           curl -s --data "resp_format=text" https://my.imperva.com/api/integration/v1/ips > Dir_IPs_Actualizadas.txt
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@users.noreply.github.com"
-          git add direcciones.txt
+          git add Dir_IPs_Actualizadas.txt
           git commit -m "Dir_IPs_Actualizadas.txt"
           git push
