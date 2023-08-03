@@ -2,7 +2,7 @@ name: Act_IPs_Imperva.txt
 
 on:
   schedule:
-    - cron: "*/720 * * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   update:
